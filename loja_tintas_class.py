@@ -27,6 +27,7 @@ class Loja_Tintas:
         return latas
 
     def imprime(self):
+        print()
         print('QTD. UN.   VL_R$ TOTAL_R$')
         print(latas, '   latas', '80.0 ', latas * 80.0)
 
